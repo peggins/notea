@@ -1,0 +1,54 @@
+body {
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ----- NAVBAR STYLE ----- */
+.notea-nv {
+    padding: 12px 6px;
+    margin-bottom: 14px;
+    background-color: #261798;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.notea-nv-w {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notea-logolink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.notea-logolink .notea-logo {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+
+.notea-nv .notea-ls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.notea-link-active {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: default;
+}
+
+.notea-ls-item .notea-ls-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.notea-ls-item .notea-ls-link:not(.notea-link-active):hover {
+    color: #ffd966;
+    text-decoration: underline;
+}
+/* ----- NAVBAR STYLE ----- */

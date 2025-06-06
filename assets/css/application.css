@@ -1,0 +1,117 @@
+body {
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ----- APP STYLE ----- */
+.notea-app {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 820px;
+}
+
+.title-input {
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #bcbcbc;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+    flex-grow: 1;
+
+}
+
+.font-selector {
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid #bcbcbc;
+    width: 30%;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+    max-height: 40px;
+    min-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.content-textarea {
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+    border-radius: 6px;
+    border: 1px solid #bcbcbc;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.save-btn,
+.download-btn {
+    background-color: rgb(18, 72, 173);
+    padding: 10px;
+    border: 1px solid rgb(12, 55, 136);
+    color: #ffff;
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+    transition: .2s ease-in-out;
+    font-weight: bold;
+    border-radius: 6px;
+
+    &:hover {
+        background-color: rgb(23, 83, 194);
+        cursor: pointer;
+    }
+}
+
+.delete-btn {
+    background-color: rgb(189, 33, 33);
+    padding: 10px;
+    border: 1px solid rgb(153, 38, 38);
+    color: #ffff;
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+    transition: .2s ease-in-out;
+    font-weight: bold;
+    border-radius: 6px;
+
+    &:hover {
+        background-color: rgb(219, 48, 48);
+        cursor: pointer;
+    }
+}
+
+.notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #eee;
+}
+
+.note-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.note-item:hover {
+    background-color: #f9f9f9;
+}
+/* ----- APP STYLE ----- */

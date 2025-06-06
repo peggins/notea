@@ -1,0 +1,18 @@
+.notea-aboutus {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.notea-sc > h2 {
+    font-family: "Carrois Gothic", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.notea-sc > p {
+    line-height: 1.4rem;
+    color: #161616;
+}
