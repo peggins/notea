@@ -58,6 +58,7 @@ body {
 }
 
 .buttons {
+    width: 822px;
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
